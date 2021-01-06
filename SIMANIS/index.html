@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<title>SIMANIS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="view/w3.css">
+<link rel="stylesheet" href="view/mycss.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+
+<body id="myPage" class="w3-sand">
+
+<div class="w3-container w3-white w3-center">
+  
+  <h1>Selamat Datang</h1>
+  <h6 class='w3-wide' style="font-family:'Segoe UI',Arial,sans-serif">Sistem Administrasi Puskesmas Kuin Raya</h6>
+</div>
+
+<div class=" w3-image w3-animate-opacity">
+  <img class="w3-container w3-card-2" src="img/bg-img.png" alt="Sabarlah sanak mun fotonya kada muncul, coba reload/refresh lagi gin..." 
+  style="width:100%;min-height:250px;max-height:450px;">
+  <div class="w3-title w3-margin-20">  
+    <button onclick="document.getElementById('PopUP01').style.display='block'" 
+	class="w3-btn w3-xlarge w3-blue w3-border w3-hover-black" title="INFO">
+	Info Aplikasi</button>
+  </div>
+  
+  <div class="absolute">
+  <button class="w3-btn w3-xlarge w3-white w3-hover-black" title="Masuk"><a href="menu.html">Masuk</button>
+  </div>
+  
+</div>
+
+
+<!-- Modal -->
+<div id="PopUP01" class="w3-modal">
+    <div class="w3-modal-content w3-card-8 w3-animate-right w3-myfont">
+      <header class="w3-container w3-blue"> 
+        <span onclick="document.getElementById('PopUP01').style.display='none'" class="w3-closebtn">&times;</span>
+        <p class="w3-xxlarge w3-tangerine">Assalamau'alaikum <br>Warohmatullahi Wabarokatuh</p>
+      </header>
+      <div class="w3-container">
+        <p>Selamat Datang di Website </p> <h2>SIMANIS</h2>
+        
+		<br/>
+		SIMANIS = SIsteM AdmiNIStrasi <br/>
+		Sistem Administrasi Puskesmas Kuin Raya
+		<br/><br/>
+		Berisi Fitur/Menu :
+		<br/>
+		<ul>
+			<li> Kasir </li>
+			<li> Loket</li>
+			<li> Dokter</li>
+			<li> Apotek</li>
+			<li> Rekam Data</li>
+		</ul>
+		<br/>
+		Dibuat Oleh :
+		<br/>
+		<ul>
+			<li> 1. Muhammad Maulana</li>
+			<li> 2. Muhammad Nuzhan Nur</li>
+			<li> 3. Redha Adji Rizky</li>
+		</ul>
+		
+		<br/>
+		
+      </div>
+      <footer class="w3-container w3-blue">
+        <p>Proyek Perangkat Lunak 2020</p>
+      </footer>
+    </div>
+</div>
+ 
+<ul class="navbar w3-card-2 w3-blue">
+  <li><a href="#"></a></li>
+</ul>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-10 w3-white w3-center">
+  <h4>Terimakasih</h4>
+  <p>&#169; Proyek Perangkat Lunak 2020 </p>			
+
+  <div style="position:relative; bottom:90px; z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-yellow">Kembali Ke Atas</span>   
+	<a class="w3-btn w3-yellow w3-border" href="#myPage">
+		<span class="w3-xlarge">
+			<i class="fa fa-chevron-circle-up" title="Klik">UP</i>
+		</span>
+	</a>
+  </div>				
+</footer>       
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<NotepadPlus>
+    <Project name="SIMANIS">
+        <Folder name="Home">
+            <File name="index.html" />
+            <File name="loginkasir.html" />
+        </Folder>
+        <Folder name="img">
+            <File name="img\bg-img.png" />
+            <File name="img\bg-menu.png" />
+        </Folder>
+        <Folder name="view">
+            <File name="view\mycss.css" />
+            <File name="view\w3.css" />
+            <File name="view\w3-theme-blue.css" />
+            <File name="view\w3-theme-blue-grey.css" />
+        </Folder>
+        <Folder name="Controler">
+            <File name="controler\koneksi.php" />
+        </Folder>
+    </Project>
+</NotepadPlus>
